@@ -20,7 +20,12 @@ int main() {
 
              cout << "Buscando alumno con ID: " << id << endl;
         }
-
+        else if(opcion == 2) {
+            cout << "Mostrando TOP 5 alumnos..."<< endl;
+        }
+        else if(opcion == 3) {
+            cout << "Mostrando alumnos en riesgo..."<< endl;
+        }
 
     } while(opcion != 4);
 
