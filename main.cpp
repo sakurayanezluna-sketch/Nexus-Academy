@@ -13,6 +13,15 @@ int main() {
         cout << "Opcion: ";
         cin >> opcion;
 
+        if(opcion == 1) {
+            int id;
+             cout << "Ingrese ID: ";
+             cin >> id;
+
+             cout << "Buscando alumno con ID: " << id << endl;
+        }
+
+
     } while(opcion != 4);
 
     return 0;
