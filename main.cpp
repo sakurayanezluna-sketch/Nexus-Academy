@@ -12,6 +12,13 @@ int main() {
         cout << "4. Salir"<<endl;
         cout << "Opcion: "<<endl;
         cin >> opcion;
+        if(opcion == 1) {
+            int id;
+            cout << "Ingrese ID: ";
+            cin >> id;
+
+            cout << "Buscando alumno con ID: " << id << endl;
+        }
 
     } while(opcion != 4);
 
