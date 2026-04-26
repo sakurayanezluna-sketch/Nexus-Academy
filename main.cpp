@@ -5,12 +5,12 @@ int main() {
     int opcion;
 
     do {
-        cout << "\n--- NEXUS ACADEMY ---\n";
-        cout << "1. Buscar alumno\n";
-        cout << "2. Top 5 alumnos\n";
-        cout << "3. Alumnos en riesgo\n";
-        cout << "4. Salir\n";
-        cout << "Opcion: ";
+        cout << "--- NEXUS ACADEMY ---"<<endl;
+        cout << "1. Buscar alumno"<<endl;
+        cout << "2. Top 5 alumnos"<<endl;
+        cout << "3. Alumnos en riesgo"<<endl;
+        cout << "4. Salir"<<endl;
+        cout << "Opcion: "<<endl;
         cin >> opcion;
 
     } while(opcion != 4);
