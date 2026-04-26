@@ -14,7 +14,7 @@ int main() {
         cin >> opcion;
         if(opcion == 1) {
             int id;
-            cout << "Ingrese ID: ";
+            cout << "Por favor ingrese ID: ";
             cin >> id;
 
             cout << "Buscando alumno con ID: " << id << endl;
