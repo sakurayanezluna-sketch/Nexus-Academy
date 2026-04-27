@@ -9,7 +9,11 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I","C:/Program Files/MySQL/MySQL Server 8.0/include",
+                "-L","C:/Program Files/MySQL/MySQL Server 8.0/lib",
+                "-lmysqlclient",
+                "-lmysql",
             ],
             "options": {
                 "cwd": "${fileDirname}"
