@@ -59,7 +59,7 @@ cout << "Conexion exitosa\n";
         MYSQL_RES *res = mysql_store_result(conn);
         MYSQL_ROW row;
 
-        cout << "TOP 5 ALUMNOS:\n";
+        cout << "TOP 5 ALUMNOS:"<<endl;
 
         while((row = mysql_fetch_row(res))) {
             cout << row[1] << " " << row[2] 
